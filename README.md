@@ -11,7 +11,7 @@ Vanilla reusable searchbar component
 
 ``` js
 import React from 'react';
-import { SearchBar } from './index';
+import { SearchBar } from "searchbar-component-npm"
 
   const dataArray = [
     "John",
@@ -45,7 +45,7 @@ export const SearchbarPrimary = () => {
 // filtering by types
 
 import React from 'react';
-import { SearchBar } from './index';
+import { SearchBar } from "searchbar-component-npm"
 
   const dataObjects = [
     { name: "John", details: { age: 32, type: "gentil" } },
